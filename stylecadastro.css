@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+.header{
+    border-bottom: 2px solid #32b9cd;
+}
+.container{
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-between;
+}
+.header .container{
+    justify-content: space-around;
+    align-items: center;
+}
+.container ul{
+    color: #e3b062;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.agora{
+    font-weight: 700;
+}
+
+.banner{
+    height: 500px;
+    background-image: url("peixe.png");
+    background-size: cover;
+}
+
+.container .card{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 35px;
+    width: 400px;
+    height: 500px;
+}
+
+input{
+    border: 1px #e75459 solid;
+    height: 30px;
+    border-radius: 4px;
+    width: 220px;
+
+}
+
+.btn-cadastro{
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #e75459;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600px;
+}
